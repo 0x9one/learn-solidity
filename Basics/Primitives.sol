@@ -36,7 +36,7 @@ contract Primitives {
      */
     int256 public wholeNumber = -256;
 
-    // To know max and mix of int
+    // To know min and max of int
     int256 public minInt = type(int256).min;
     int256 public maxInt = type(int256).max;
 
