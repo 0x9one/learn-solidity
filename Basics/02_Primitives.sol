@@ -19,6 +19,9 @@ pragma solidity ^0.8.13;
 contract Primitives {
     // Default value: Flase
     bool public check = true;
+    
+    // String UTF8 encoded text, “Hello World!”
+    string public welcome = "Hello world!";
 
     /** uint type have a different sizes
      * uint = uint256 -> 0 to 2**256 -1
